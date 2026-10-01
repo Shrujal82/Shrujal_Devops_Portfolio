@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="portfolio.css?v=4" />
+    <link rel="stylesheet" href="portfolio.css?v=5" />
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="script.js" defer></script>
   </head>
@@ -31,14 +31,31 @@
     </header>
 
     <main>
-      <section class="intro content-width" id="summary">
-        <div class="intro-main">
-          <p class="eyebrow"><span class="status-dot"></span> DEVOPS ENGINEER <span class="eyebrow-divider">/</span> 8.5 YEARS EXPERIENCE</p>
-          <h1>Shrujal Parmar<br /><span>DevOps Engineer</span></h1>
-          <p class="intro-summary">DevOps engineer with 8.5 years of experience automating CI/CD and managing containerized workloads across enterprise banking and government environments. I help teams move from manual releases to reliable, repeatable delivery.</p>
-          <div class="intro-links"><a class="button button-dark" href="mailto:shrujal82parmar@gmail.com">Email me <i data-lucide="arrow-up-right"></i></a><a class="text-link" href="tel:+918866302619"><i data-lucide="phone"></i> +91 88663 02619</a></div>
+      <section class="intro-shell" id="summary">
+        <div class="intro content-width">
+          <div class="intro-main">
+            <p class="eyebrow"><span class="status-dot"></span> DEVOPS ENGINEER <span class="eyebrow-divider">/</span> 8.5 YEARS EXPERIENCE</p>
+            <h1>Shrujal<br /><span>Parmar.</span></h1>
+            <p class="intro-summary">I build reliable delivery systems for enterprise applications, from CI/CD pipelines and OpenShift platforms to repeatable database releases.</p>
+            <div class="intro-links"><a class="button button-light" href="mailto:shrujal82parmar@gmail.com">Let's talk <i data-lucide="arrow-up-right"></i></a><a class="text-link" href="tel:+918866302619"><i data-lucide="phone"></i> +91 88663 02619</a></div>
+          </div>
+          <aside class="intro-aside" aria-label="Delivery workflow">
+            <div class="aside-heading"><span class="aside-label">DELIVERY, END TO END</span><span class="aside-index">01 — 04</span></div>
+            <ol class="delivery-flow">
+              <li><span>01</span><strong>Plan & commit</strong><small>GitHub · Bitbucket</small></li>
+              <li><span>02</span><strong>Build & package</strong><small>Jenkins · TeamCity</small></li>
+              <li><span>03</span><strong>Validate & release</strong><small>Maven · Liquibase</small></li>
+              <li><span>04</span><strong>Deploy & operate</strong><small>OpenShift · Kubernetes</small></li>
+            </ol>
+            <span class="aside-location">GANDHINAGAR, INDIA</span>
+          </aside>
         </div>
-        <aside class="intro-aside"><span class="aside-label">CORE STRENGTHS</span><strong>CI/CD automation<br />OpenShift delivery<br />Database releases</strong><span class="aside-rule"></span><span class="aside-label">GANDHINAGAR, INDIA</span></aside>
+        <div class="hero-metrics content-width" aria-label="Career highlights">
+          <div><strong>25<span>+</span></strong><span>applications delivered</span></div>
+          <div><strong>4</strong><span>environments standardized</span></div>
+          <div><strong>90<span>%</span></strong><span>faster release cycles</span></div>
+          <div><strong>99<span>%</span></strong><span>release success rate</span></div>
+        </div>
       </section>
 
       <section class="content-section content-width" id="skills">
@@ -107,7 +124,7 @@
       </section>
 
       <section class="content-section content-width" id="writing">
-        <div class="section-label"><span>04</span><h2>Notes from the work</h2></div>
+        <div class="section-label"><span>05</span><h2>Notes from the work</h2></div>
         <div class="article-list">
           <details class="article-row"><summary><span class="article-meta">KUBERNETES · 6 MIN</span><strong>Readiness probes should reflect whether a service can handle traffic.</strong><i data-lucide="plus"></i></summary><p>A readiness check is a contract with the traffic manager. Keep it separate from startup and liveness checks, and make it reflect the service's ability to handle a request.</p></details>
           <details class="article-row"><summary><span class="article-meta">TERRAFORM · 8 MIN</span><strong>Keep Terraform modules focused and easy to understand.</strong><i data-lucide="plus"></i></summary><p>Start with clear inputs, explicit outputs, and a focused purpose. Add another layer of abstraction only when repeated use shows that it makes the system easier to maintain.</p></details>
