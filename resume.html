@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resume of Shrujal Parmar, DevOps Engineer." />
+    <title>Shrujal Parmar | Resume</title>
+    <style>
+      :root { color-scheme: light; --ink: #17212b; --muted: #52606b; --line: #d5dadd; --accent: #2f775c; }
+      * { box-sizing: border-box; }
+      body { max-width: 920px; margin: 0 auto; padding: 45px 54px; color: var(--ink); font: 14px/1.6 Georgia, 'Times New Roman', serif; }
+      a { color: inherit; }
+      header { padding-bottom: 20px; border-bottom: 2px solid #aeb7bb; }
+      h1 { margin: 0 0 5px; font-size: 34px; line-height: 1.2; }
+      .contact { margin: 0; color: var(--muted); font-size: 13px; }
+      h2 { margin: 25px 0 10px; padding-bottom: 5px; border-bottom: 1px solid var(--line); color: var(--accent); font: 700 13px/1.4 Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+      h3 { margin: 0; font-size: 15px; }
+      p { margin: 5px 0 10px; }
+      .summary { margin-top: 13px; }
+      .skills { display: grid; grid-template-columns: 185px 1fr; gap: 6px 15px; margin: 0; }
+      .skills dt { font-weight: 700; }
+      .skills dd { margin: 0; color: var(--muted); }
+      .role { margin: 13px 0 5px; display: flex; justify-content: space-between; gap: 16px; }
+      .role time { flex: 0 0 auto; color: var(--muted); font-size: 12px; }
+      .employer { margin: 0 0 4px; color: var(--muted); font-style: italic; }
+      ul { margin: 5px 0 12px; padding-left: 19px; }
+      li { padding-left: 2px; margin: 2px 0; }
+      .compact-list { margin-bottom: 0; }
+      .education-row { display: flex; justify-content: space-between; gap: 15px; margin: 8px 0; }
+      .education-row time { color: var(--muted); font-size: 12px; }
+      .toolbar { position: fixed; right: 20px; bottom: 20px; }
+      .toolbar button { padding: 11px 15px; border: 0; border-radius: 3px; background: var(--accent); color: white; font: 700 13px Arial, sans-serif; cursor: pointer; }
+      @media (max-width: 620px) {
+        body { padding: 25px 20px; font-size: 13px; }
+        h1 { font-size: 29px; }
+        .skills { grid-template-columns: 1fr; gap: 2px; }
+        .skills dd { margin-bottom: 6px; }
+        .role, .education-row { flex-direction: column; gap: 0; }
+      }
+      @media print {
+        body { max-width: none; padding: 0; font-size: 10.5pt; }
+        .toolbar { display: none; }
+        h2 { break-after: avoid; }
+        .role, .education-row { break-inside: avoid; }
+        a { text-decoration: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar"><button type="button" onclick="window.print()">Print / Save as PDF</button></div>
+    <header>
+      <h1>Shrujal Parmar</h1>
+      <p class="contact">Gandhinagar, India · +91 8866302619 · <a href="mailto:shrujal82parmar@gmail.com">shrujal82parmar@gmail.com</a> · <a href="https://www.linkedin.com/in/shrujal-parmar" target="_blank" rel="noreferrer">LinkedIn</a></p>
+      <p class="summary">Result-driven DevOps Engineer with 8.5 years of experience specializing in end-to-end CI/CD automation and containerized workload management across enterprise banking and government environments. Proven track record of transforming legacy, manual software deployment processes into robust automated pipelines. Experienced in version control migrations, infrastructure scaling, and database release management while minimizing downtime and maximizing deployment reliability.</p>
+    </header>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <dl class="skills">
+        <dt>CI/CD & Automation</dt><dd>Jenkins, TeamCity, GitHub Actions, Maven, NuGet, uDeploy</dd>
+        <dt>Containerization</dt><dd>Docker, Kubernetes, OpenShift, Helm</dd>
+        <dt>Artifact & Version Control</dt><dd>GitHub, Bitbucket, JFrog Artifactory, SVN</dd>
+        <dt>Scripting & Languages</dt><dd>PowerShell, Bash, Python</dd>
+        <dt>Operating Systems</dt><dd>RHEL Linux, Windows Server</dd>
+        <dt>Database DevOps</dt><dd>MySQL, PostgreSQL, Liquibase</dd>
+        <dt>Code Analysis</dt><dd>SonarQube</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <div class="role"><h3>DevOps Engineer — Deutsche Bank, TCS</h3><time>April 2022 – Present</time></div>
+      <p class="employer">Gandhinagar, Gujarat, India</p>
+      <ul>
+        <li>Led CI/CD implementation from scratch using TeamCity, Jenkins, and uDeploy for 25+ applications, automating builds, artifact management, and deployments across four environments and cutting release time by 90%.</li>
+        <li>Designed container deployment workflows for 15 Java applications on Red Hat OpenShift using Docker, Kubernetes, and Helm, reducing manual steps by 85% and deployment failures by 70%.</li>
+        <li>Developed CI/CD pipelines for eight .NET applications, automating builds and NuGet package generation and integrating JFrog Artifactory to centralize 100+ artifacts.</li>
+        <li>Automated Maven and Liquibase database deployments across three environments, reducing release effort from two hours to 15 minutes per release.</li>
+        <li>Implemented BLT deployment validation, ensuring 100% of production releases passed through all lower environments.</li>
+        <li>Built CI/CD for the RIBB INTQA environment, automating OpenShift deployments for 10 applications in two weeks.</li>
+        <li>Managed Jenkins and uDeploy delivery for the APS project, supporting 10+ containerized Java applications across three environments.</li>
+        <li>Deployed Apache Superset on OpenShift using Docker and Helm, providing 50+ users read-only data access without direct database access.</li>
+        <li>Migrated 10+ repositories from Bitbucket to GitHub with zero downtime and standardized source-code management.</li>
+        <li>Resolved 10+ CI/CD, container, and OpenShift issues per quarter, sustaining a 99% production release success rate.</li>
+        <li>Mentored six team members on OpenShift, Kubernetes, CI/CD, and troubleshooting, reducing escalations by 80%.</li>
+        <li>Standardized deployment workflows across four environments, reducing manual effort by 85% and deployment inconsistencies by 90%.</li>
+      </ul>
+
+      <div class="role"><h3>System Engineer — CAS Project, Tata Consultancy Services</h3><time>March 2018 – March 2022</time></div>
+      <p class="employer">Gandhinagar, Gujarat, India</p>
+      <ul class="compact-list">
+        <li>Configured Jenkins pipelines with Apache Ant and SVN, automating builds and deployments across branches and environments.</li>
+        <li>Integrated SonarQube static analysis and quality gates to identify code-quality and security issues before deployment.</li>
+        <li>Developed Ant build scripts for enterprise EAR packages deployed to JBoss application servers.</li>
+        <li>Administered RHEL servers, including patching, access management, monitoring, and log analysis.</li>
+        <li>Resolved environment configuration and deployment issues to maintain CI/CD availability.</li>
+        <li>Automated database, repository, and staging backups with Shell scripts and Windows Task Scheduler, reducing manual activity by approximately 90%.</li>
+        <li>Provisioned and renewed SSL/TLS certificates and applied Linux firewall and system hardening controls.</li>
+        <li>Supported production deployments and troubleshooting across Jenkins, Ant, JBoss, Linux, SSL, and environments.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education & Certifications</h2>
+      <div class="education-row"><div><strong>Master of Computer Applications (MCA)</strong><br />Sastra University, Tamil Nadu</div><time>Jun 2019 – Mar 2022</time></div>
+      <div class="education-row"><div><strong>BSc in Information Technology</strong><br />Saurashtra University, Gujarat</div><time>May 2014 – Mar 2017</time></div>
+      <ul class="compact-list">
+        <li>AWS Certified Cloud Practitioner · May 2023 – May 2026</li>
+        <li>Microsoft Azure AI Fundamentals (AI-900) · 2023</li>
+        <li>Microsoft Azure Fundamentals (AZ-900) · 2022</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Achievements & Languages</h2>
+      <p><strong>Achievements:</strong> Best Team Award, TCS (2021) · Learning Achievement Award, TCS (2019)</p>
+      <p><strong>Languages:</strong> English (Proficient) · Hindi (Proficient) · Gujarati (Native)</p>
+    </section>
+  </body>
+</html>

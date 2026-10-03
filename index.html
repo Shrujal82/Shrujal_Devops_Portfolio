@@ -8,57 +8,49 @@
     <title>Shrujal Parmar | DevOps Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="portfolio.css?v=5" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="portfolio.css?v=7" />
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="wordmark" href="#summary" aria-label="Shrujal Parmar, back to top">Shrujal Parmar<span>.</span><small>DEVOPS ENGINEER</small></a>
+      <a class="wordmark" href="#summary" aria-label="Shrujal Parmar, back to top">Shrujal Parmar</a>
       <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
         <i data-lucide="menu"></i>
       </button>
       <nav class="main-nav" aria-label="Main navigation">
-        <a href="#summary">Summary</a>
+        <a href="#summary">Overview</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#impact">Impact</a>
-        <a href="#credentials">Credentials</a>
-        <a href="#writing">Writing</a>
-        <a href="#contact">Contact</a>
+        <a href="#credentials">Education</a>
       </nav>
     </header>
 
-    <main>
-      <section class="intro-shell" id="summary">
-        <div class="intro content-width">
-          <div class="intro-main">
-            <p class="eyebrow"><span class="status-dot"></span> DEVOPS ENGINEER <span class="eyebrow-divider">/</span> 8.5 YEARS EXPERIENCE</p>
-            <h1>Shrujal<br /><span>Parmar.</span></h1>
-            <p class="intro-summary">Result-driven DevOps Engineer with 8.5 years of experience specializing in end-to-end CI/CD automation, and containerized workload management across enterprise banking and government environments. Proven track record of spearheading transformations from legacy, manual software deployment processes to robust automated pipelines. Adept at handling version control migrations, infrastructure scaling, and database release management while minimizing downtime and maximizing deployment reliability.</p>
-            <div class="intro-links"><a class="button button-light" href="mailto:shrujal82parmar@gmail.com">Let's talk <i data-lucide="arrow-up-right"></i></a><a class="text-link" href="tel:+918866302619"><i data-lucide="phone"></i> +91 88663 02619</a></div>
-          </div>
-          <aside class="intro-aside" aria-label="Delivery workflow">
-            <div class="aside-heading"><span class="aside-label">DELIVERY, END TO END</span><span class="aside-index">01 — 04</span></div>
-            <ol class="delivery-flow">
-              <li><span>01</span><strong>Plan & commit</strong><small>GitHub · Bitbucket</small></li>
-              <li><span>02</span><strong>Build & package</strong><small>Jenkins · TeamCity</small></li>
-              <li><span>03</span><strong>Validate & release</strong><small>Maven · Liquibase</small></li>
-              <li><span>04</span><strong>Deploy & operate</strong><small>OpenShift · Kubernetes</small></li>
-            </ol>
-            <span class="aside-location">GANDHINAGAR, INDIA</span>
-          </aside>
+    <main class="page-layout content-width">
+      <aside class="profile-sidebar" aria-label="Profile and contact">
+        <img class="profile-photo" src="Shrujal Parmar.jpg" alt="Shrujal Parmar" onerror="this.style.display='none';" />
+        <p class="sidebar-role">DEVOPS ENGINEER</p>
+        <p class="sidebar-location">Gandhinagar, India</p>
+        <div class="sidebar-links">
+          <a href="mailto:shrujal82parmar@gmail.com"><i data-lucide="mail"></i><span>shrujal82parmar@gmail.com</span></a>
+          <a href="tel:+918866302619"><i data-lucide="phone"></i><span>+91 88663 02619</span></a>
+          <a href="https://www.linkedin.com/in/shrujal-parmar" target="_blank" rel="noreferrer"><i data-lucide="globe"></i><span>LinkedIn</span></a>
         </div>
-        <div class="hero-metrics content-width" aria-label="Career highlights">
-          <div><strong>25<span>+</span></strong><span>applications delivered</span></div>
-          <div><strong>4</strong><span>environments standardized</span></div>
-          <div><strong>90<span>%</span></strong><span>faster release cycles</span></div>
-          <div><strong>99<span>%</span></strong><span>release success rate</span></div>
-        </div>
+        <a class="download-link" href="Shrujal-Parmar-Resume.pdf" download="Shrujal-Parmar-Resume.pdf"><i data-lucide="download"></i>Download resume</a>
+      </aside>
+
+      <div class="portfolio-content">
+      <section class="profile-intro" id="summary">
+        <p class="eyebrow">DEVOPS ENGINEER <span>·</span> 8.5 YEARS EXPERIENCE</p>
+        <h1>Shrujal Parmar</h1>
+        <h2>Reliable delivery, from commit to production.</h2>
+        <p class="intro-summary">DevOps Engineer with 8.5 years of experience in CI/CD automation and containerized workload management across enterprise banking and government environments. I turn manual release processes into dependable pipelines, with a focus on application delivery, platform operations, source-control migrations, and database releases.</p>
+        <div class="intro-facts"><span>25+ applications supported</span><span>OpenShift & Kubernetes</span><span>90% faster releases</span></div>
       </section>
 
-      <section class="content-section content-width" id="skills">
+      <section class="content-section" id="skills">
         <div class="section-label"><span>01</span><h2>Technical skills</h2></div>
         <div class="skills-grid">
           <div class="skill-group"><h3>CI/CD & automation</h3><p>Jenkins · TeamCity · GitHub Actions · Maven · NuGet · uDeploy</p></div>
@@ -71,40 +63,39 @@
         </div>
       </section>
 
-      <section class="content-section content-width" id="experience">
+      <section class="content-section" id="experience">
         <div class="section-label"><span>02</span><h2>Experience</h2></div>
         <div class="experience-list">
         <article class="experience-entry">
           <div class="entry-date">APR 2022 — PRESENT<br />GANDHINAGAR, GUJARAT, INDIA</div>
           <div><h3>DevOps Engineer</h3><p class="entry-employer">Deutsche Bank · Tata Consultancy Services</p><ul class="achievement-list">
-            <li>Led CI/CD pipelines from scratch with TeamCity, Jenkins, and uDeploy for <strong>25+ applications</strong> across four environments, automating builds, artifact management, and deployments while cutting release time by <strong>90%</strong>.</li>
-            <li>Designed Docker, Kubernetes, and Helm deployment workflows for <strong>15 Java applications on Red Hat OpenShift</strong>, reducing manual deployment steps by 85% and failures by 70%.</li>
-            <li>Built CI/CD pipelines for <strong>8 .NET applications</strong>, automating builds and NuGet packaging and centralizing 100+ artifacts in JFrog Artifactory.</li>
-            <li>Automated Maven and Liquibase database deployments across three environments, reducing release effort from two hours to 15 minutes.</li>
-            <li>Implemented BLT deployment validation, ensuring 100% of production releases passed through all lower environments.</li>
-            <li>Established CI/CD for the RIBB INTQA environment, automating OpenShift deployments for 10 applications in two weeks.</li>
-            <li>Managed Jenkins and uDeploy delivery for the APS project, supporting 10+ containerized Java applications across three environments.</li>
-            <li>Deployed Apache Superset on OpenShift with Docker and Helm, providing 50+ users read-only data access without direct database access.</li>
-            <li>Migrated 10+ repositories from Bitbucket to GitHub with zero downtime, standardizing source-code management across the team.</li>
-            <li>Resolved 10+ CI/CD, container, and OpenShift issues per quarter with application, infrastructure, and support teams, sustaining a 99% production release success rate.</li>
-            <li>Mentored six team members on OpenShift, Kubernetes, CI/CD, and production troubleshooting, reducing escalations by 80%.</li>
-            <li>Contributed to platform engineering standards across four environments, cutting manual effort by 85% and deployment inconsistencies by 90%.</li>
+            <li>Led the transformation of legacy development projects from predominantly manual operations to automated CI/CD environments, reducing deployment effort by <strong>90%</strong> and streamlining build, release, deployment, and database delivery across four environments.</li>
+            <li>Centralized source code and build configurations for <strong>10+ applications/components</strong> in Bitbucket and integrated TeamCity with uDeploy, automating application builds and deployments across four environments and reducing manual deployment activities by <strong>90%</strong>.</li>
+            <li>Designed and maintained end-to-end CI/CD pipelines for <strong>8+ C#/.NET applications</strong> using TeamCity, Maven, NuGet, PowerShell, and JFrog CLI, automating application builds, package creation, artifact publishing, and release workflows.</li>
+            <li>Automated packaging and publishing of <strong>8+ .NET components</strong> as NuGet (.nupkg) artifacts to JFrog Artifactory, supporting releases/deployments per month and eliminating manual release steps.</li>
+            <li>Deployed and managed Kubernetes workloads, including Deployments, Ingress, and Services, using Helm charts across <strong>4+ staging and production environments</strong>, supporting <strong>20+ applications/workloads</strong> on OpenShift.</li>
+            <li>Upgraded and maintained Java runtime versions across <strong>10+ containerized applications</strong> in OpenShift, completing runtime upgrades with zero recorded application downtime across environments.</li>
+            <li>Designed and automated database CI/CD workflows using TeamCity, Maven, Liquibase, JFrog Artifactory, and uDeploy, automating database artifact packaging and controlled deployments across UAT and production, supporting one or more database releases per month.</li>
+            <li>Deployed and configured Apache Superset on OpenShift for <strong>50+ users</strong>, establishing a controlled self-service analytics platform that enabled read-only data analysis without granting direct database access.</li>
           </ul></div>
         </article>
         <article class="experience-entry">
           <div class="entry-date">MAR 2018 — MAR 2022<br />GANDHINAGAR, INDIA</div>
-          <div><h3>System Engineer · CAS Project</h3><p class="entry-employer">Tata Consultancy Services</p><ul class="achievement-list">
-            <li>Maintained Jenkins pipelines with Apache Ant and SVN, and developed build scripts for enterprise EAR packages on JBoss.</li>
-            <li>Integrated SonarQube quality gates to surface code-quality and security issues before deployment.</li>
-            <li>Administered RHEL servers, supported production releases, and resolved Linux, JBoss, SSL, and environment issues.</li>
-            <li>Automated database, repository, and staging backups with Shell scripts and Windows Task Scheduler, reducing manual work by approximately 90%.</li>
-            <li>Provisioned and renewed SSL/TLS certificates and applied Linux firewall and system hardening controls.</li>
+          <div><h3>System Engineer</h3><p class="entry-employer">CAS Project · Tata Consultancy Services</p><ul class="achievement-list">
+            <li>Designed and maintained Jenkins CI/CD pipelines integrated with Apache Ant and SVN, supporting <strong>8+ applications</strong> across environments and reducing manual build and deployment effort by <strong>95%</strong>.</li>
+            <li>Integrated SonarQube code quality analysis and quality gates into CI pipelines for <strong>8+ projects</strong>, automating code quality checks before deployment.</li>
+            <li>Automated EAR package builds for <strong>8+ enterprise Java applications</strong> using Apache Ant, standardizing application packaging and deployment to JBoss application servers.</li>
+            <li>Administered bare-metal RHEL Linux server environments, conducting proactive patch management, user access tuning, and structural log monitoring.</li>
+            <li>Diagnosed and resolved environment-specific configuration anomalies across staging boundaries to ensure continuous pipeline availability.</li>
+            <li>Automated database, code repository, and staging environment backups using Shell scripting, Linux Cronjobs, and Windows Task Scheduler, reducing manual backup effort by <strong>90%</strong>.</li>
+            <li>Provisioned and renewed SSL/TLS certificates across JBoss servers to establish hardened, secure HTTPS communication tunnels.</li>
+            <li>Enforced security compliance frameworks on Linux platforms by leveraging advanced firewall controls and system hardening techniques.</li>
           </ul></div>
         </article>
         </div>
       </section>
 
-      <section class="content-section content-width" id="impact">
+      <section class="content-section" id="impact">
         <div class="section-label"><span>03</span><h2>Selected impact</h2></div>
         <div class="project-list">
           <article class="project-row"><span class="project-index">01</span><div><h3>CI/CD modernization at enterprise scale</h3><p>Implemented pipelines for 25+ applications across four environments, automating builds, artifact management, and deployments while reducing release time by 90%.</p><div class="tag-list"><span>JENKINS</span><span>TEAMCITY</span><span>UDEPLOY</span></div></div></article>
@@ -113,7 +104,7 @@
         </div>
       </section>
 
-      <section class="content-section content-width" id="credentials">
+      <section class="content-section" id="credentials">
         <div class="section-label"><span>04</span><h2>Education & credentials</h2></div>
         <div class="credentials-grid">
           <div class="credential-group"><h3>Education</h3><p><strong>Master of Computer Applications</strong><br />Sastra University · 2019–2022</p><p><strong>BSc in Information Technology</strong><br />Saurashtra University · 2014–2017</p></div>
@@ -123,20 +114,12 @@
         </div>
       </section>
 
-      <section class="content-section content-width" id="writing">
-        <div class="section-label"><span>05</span><h2>Notes from the work</h2></div>
-        <div class="article-list">
-          <details class="article-row"><summary><span class="article-meta">KUBERNETES · 6 MIN</span><strong>Readiness probes should reflect whether a service can handle traffic.</strong><i data-lucide="plus"></i></summary><p>A readiness check is a contract with the traffic manager. Keep it separate from startup and liveness checks, and make it reflect the service's ability to handle a request.</p></details>
-          <details class="article-row"><summary><span class="article-meta">TERRAFORM · 8 MIN</span><strong>Keep Terraform modules focused and easy to understand.</strong><i data-lucide="plus"></i></summary><p>Start with clear inputs, explicit outputs, and a focused purpose. Add another layer of abstraction only when repeated use shows that it makes the system easier to maintain.</p></details>
-          <details class="article-row"><summary><span class="article-meta">CI/CD · 5 MIN</span><strong>Make the safe deployment path the easiest one.</strong><i data-lucide="plus"></i></summary><p>Fast feedback, immutable artifacts, and a visible rollback route make safety part of the workflow, rather than a checklist engineers have to remember under pressure.</p></details>
-        </div>
-      </section>
-
-      <section class="contact-section content-width" id="contact">
+      <section class="contact-section" id="contact">
         <div><p class="eyebrow">LET'S CONNECT</p><h2>Working on something interesting?</h2><p>Gandhinagar, India · <a href="tel:+918866302619">+91 88663 02619</a></p></div><a class="contact-button" href="mailto:shrujal82parmar@gmail.com">shrujal82parmar@gmail.com <i data-lucide="arrow-up-right"></i></a>
       </section>
+      </div>
     </main>
 
-    <footer class="site-footer content-width"><a class="wordmark footer-mark" href="#summary">Shrujal Parmar<span>.</span></a><span>DEVOPS ENGINEER · © 2026</span><a class="footer-email" href="mailto:shrujal82parmar@gmail.com">EMAIL <i data-lucide="arrow-up-right"></i></a></footer>
+    <footer class="site-footer content-width"><a class="wordmark footer-mark" href="#summary">Shrujal Parmar</a><span>DEVOPS ENGINEER · © 2026</span><a class="footer-email" href="mailto:shrujal82parmar@gmail.com">EMAIL <i data-lucide="arrow-up-right"></i></a></footer>
   </body>
 </html>
